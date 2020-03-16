@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="udemy.FirefoxLoginTest">
+      <class name="seleniumlab.FirefoxDataProvider">
         <methods>
-          <include name="logindetails"/>
           <include name="configure"/>
-          <include name="loginClick"/>
+          <include name="testMethod" invocation-numbers="0 1"/>
+          <include name="closebrowser"/>
         </methods>
-      </class> <!-- udemy.FirefoxLoginTest -->
+      </class> <!-- seleniumlab.FirefoxDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
